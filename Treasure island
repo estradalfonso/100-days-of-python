@@ -1,0 +1,22 @@
+choice1 = input('You are at a crossroad, where do you want to go? Type "Left" or "Right"\n').lower()
+
+if choice1 == "right":
+    print("You fell into a hole. Game over.")
+else:
+    print("Well done, let's see what's next.")
+
+    choice2 = input('Would you like to swim or wait? Type "swim" or "wait"\n').lower()
+
+    if choice2 == "wait":
+        print("You have been attacked by a trout. Game Over.")
+    else:
+        print("Well done. Let's see what's next.")
+
+    choice3 = input("You arrived at a house that has three doors. One red, one blue, and one yellow. Which one do you use?\n").lower()
+
+    if choice3 == "yellow":
+        print("Congratulations! You have won the game.")
+    elif choice3 == "red":
+        print("You have been burned by a fire. Game over.")
+    else:
+        print("You have been eaten by beasts. Game over.")
